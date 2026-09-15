@@ -18,8 +18,8 @@
 > logic and evaluation approach below are faithful to the real design, just
 > smaller in scope.
 >
-> Full case study (business problem, role, results, lessons learned): *link
-> to portfolio coming soon*
+> Full case study (business problem, role, results, lessons learned):
+> [Agentic AI for Vendor Entity Resolution](https://www.notion.so/Agentic-AI-for-Vendor-Entity-Resolution-3dc496721d8d81ceaf31c5df908cb4c4)
 
 ## What this demonstrates
 
