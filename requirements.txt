@@ -1,0 +1,3 @@
+# Mock mode (default) uses only the Python standard library.
+# Live mode (--mode live) additionally requires:
+openai>=1.30.0

@@ -1,0 +1,59 @@
+{
+  "_comment": "Mock mode stand-in for the web-search tool. In live mode this step calls a real search API/OpenAI web-search tool. Keyed by vendor_id for deterministic, reproducible demo runs.",
+
+  "verification_V004": {
+    "query": "Brightwell Logistics parent company acquisition",
+    "found": true,
+    "summary": "Brightwell Logistics was acquired by Cascadia Freight Holdings in a 2024 transaction; Brightwell now operates as a Cascadia subsidiary.",
+    "resolved_parent": "Cascadia Freight Holdings",
+    "domain": "cascadiafreight.com",
+    "sources": ["https://www.freightwaves.example/brightwell-cascadia-acquisition-2024"]
+  },
+  "V008": {
+    "query": "Sterling Partners LLC parent company",
+    "found": true,
+    "summary": "Two distinct firms share the 'Sterling Partners' name: Sterling Partners Capital (New York, NY) and Sterling Partners Advisory (Chicago, IL). Evidence alone does not disambiguate which one this vendor record refers to.",
+    "candidates": [
+      {"resolved_parent": "Sterling Partners Capital", "domain": "sterlingpartnerscapital.com", "address": "1 Liberty Plaza, New York, NY"},
+      {"resolved_parent": "Sterling Partners Advisory", "domain": "sterlingpartnersadvisory.com", "address": "200 W Madison St, Chicago, IL"}
+    ],
+    "sources": ["https://www.bizwire.example/sterling-partners-directory"]
+  },
+  "V011": {
+    "query": "Aurelia Textile Works parent company rebrand",
+    "found": true,
+    "summary": "Aurelia Textile Works rebranded as Aurelia Textiles Group in 2023 following a management buyout.",
+    "resolved_parent": "Aurelia Textiles Group",
+    "domain": "aureliatextiles.com",
+    "sources": ["https://www.textiletoday.example/aurelia-rebrand-2023"]
+  },
+  "V012": {
+    "query": "Bramblewood & Finch Studio parent company",
+    "found": false,
+    "summary": "No reliable public information found for Bramblewood & Finch Studio beyond a small studio website; appears to be an independent small business.",
+    "sources": []
+  },
+  "V013": {
+    "query": "Grayfen Holdings LLC parent company",
+    "found": false,
+    "summary": "No public record found for Grayfen Holdings LLC beyond a state business registration filing; insufficient evidence to resolve a parent company.",
+    "sources": ["https://www.sos-example.gov/business-search/grayfen-holdings"]
+  },
+  "V014": {
+    "query": "Quill & Anchor Media parent company",
+    "found": true,
+    "summary": "Quill & Anchor Media is described in industry coverage as an independently owned production company with no parent company or acquisition on record.",
+    "resolved_parent": null,
+    "relationship_type": "standalone",
+    "domain": "quillandanchormedia.com",
+    "sources": ["https://www.mediabiz.example/quill-anchor-profile"]
+  },
+  "verification_V002": {
+    "query": "Northstar Analytics International parent company ownership 2024",
+    "found": true,
+    "summary": "No ownership change found; Northstar Analytics International remains independently held. Catalog entry confirmed current.",
+    "resolved_parent": "Northstar Analytics International",
+    "domain": "northstaranalytics.com",
+    "sources": ["https://www.databiz.example/northstar-analytics-profile"]
+  }
+}
