@@ -1,0 +1,8 @@
+{
+  "_comment": "Mock mode stand-in for 'the agent reasons from its own knowledge, without searching'. In live mode this step is a real LLM call asking the model to propose a likely parent from its own training knowledge, which is then checked against the catalog. Keyed by vendor_id since mock mode has no live model to ask.",
+
+  "V003": {
+    "guess": "Ferrum & Oak Group",
+    "rationale": "\"Advisory GmbH\" is a common naming pattern for a European advisory arm of a larger group; the base name closely matches a known catalog entity."
+  }
+}

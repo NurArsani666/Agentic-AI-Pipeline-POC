@@ -1,0 +1,26 @@
+{
+  "vendor_id": "V015",
+  "vendor_name": "Meridian Health Partners Group AG",
+  "resolved_parent": "Meridian Health Partners",
+  "confidence": 0.93,
+  "relationship_type": "cache_hit",
+  "reasoning": "\"Meridian Health Partners Group AG\" matches a previously verified alias for Meridian Health Partners (meridianhealthpartners.com); resolved directly from the cache with no catalog lookup or LLM call needed.",
+  "parent_domain": "meridianhealthpartners.com",
+  "sources": [
+    "verified_resolution_cache"
+  ],
+  "status": "resolved",
+  "judge_verdict": "PASS",
+  "judge_notes": [
+    "All checks passed."
+  ],
+  "tool_call_log": [
+    {
+      "step": 0,
+      "tool": "cache_lookup",
+      "reason": "Check the Verified Resolution Cache before any other step.",
+      "query": "Meridian Health Partners Group AG",
+      "result_summary": "Matched alias \"Meridian Health Partners Group\" (100.0%) -> Meridian Health Partners."
+    }
+  ]
+}

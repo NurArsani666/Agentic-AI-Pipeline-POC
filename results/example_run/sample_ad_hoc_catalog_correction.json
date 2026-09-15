@@ -1,0 +1,33 @@
+{
+  "vendor_id": "V004",
+  "vendor_name": "Brightwell Logistics (Midwest) LLC",
+  "resolved_parent": "Cascadia Freight Holdings",
+  "confidence": 0.9,
+  "relationship_type": "catalog_correction",
+  "reasoning": "Catalog said \"Brightwell Logistics\" but was stale; verification search found: Brightwell Logistics was acquired by Cascadia Freight Holdings in a 2024 transaction; Brightwell now operates as a Cascadia subsidiary.",
+  "parent_domain": "cascadiafreight.com",
+  "sources": [
+    "https://www.freightwaves.example/brightwell-cascadia-acquisition-2024"
+  ],
+  "status": "resolved",
+  "judge_verdict": "PASS",
+  "judge_notes": [
+    "All checks passed."
+  ],
+  "tool_call_log": [
+    {
+      "step": 1,
+      "tool": "catalog_search_as_is",
+      "reason": "Try catalog match using the vendor name as-is (fuzzy, top-5).",
+      "query": "Brightwell Logistics (Midwest) LLC",
+      "result_summary": "Top match \"Brightwell Logistics\" at 100.0%."
+    },
+    {
+      "step": 2,
+      "tool": "verification_search",
+      "reason": "Catalog entry last verified 2022-09-05 (>18 months old); confirm before trusting it.",
+      "query": "Brightwell Logistics parent company ownership",
+      "result_summary": "See verification result."
+    }
+  ]
+}

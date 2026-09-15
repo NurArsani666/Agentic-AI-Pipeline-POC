@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "domain": "meridianhealthpartners.com",
+      "parent_company": "Meridian Health Partners",
+      "aliases": [
+        "Meridian Health Partners Group"
+      ],
+      "confidence": 0.93,
+      "verified_epoch": 1,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "solacehealth.io",
+      "parent_company": "Solace Health Analytics",
+      "aliases": [
+        "Solace Health Analytics Inc."
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "northstaranalytics.com",
+      "parent_company": "Northstar Analytics International",
+      "aliases": [
+        "Northstar Analytics International Ltd"
+      ],
+      "confidence": 0.95,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "ferrumoak.com",
+      "parent_company": "Ferrum & Oak Group",
+      "aliases": [
+        "Ferrum & Oak Advisory GmbH"
+      ],
+      "confidence": 0.88,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "cascadiafreight.com",
+      "parent_company": "Cascadia Freight Holdings",
+      "aliases": [
+        "Brightwell Logistics (Midwest) LLC"
+      ],
+      "confidence": 0.9,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "ashgrovepartners.com",
+      "parent_company": "Ashgrove Partners",
+      "aliases": [
+        "Ashgrove Partners"
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "meridianconsulting.com",
+      "parent_company": "Meridian Consulting Group",
+      "aliases": [
+        "Meridian Consulting Group (APAC) Pte Ltd"
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "kestreldata.com",
+      "parent_company": "Kestrel Data Systems",
+      "aliases": [
+        "Kestrel Data Systems Corp"
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "sterlingpartnersadvisory.com",
+      "parent_company": "Sterling Partners Advisory",
+      "aliases": [
+        "Sterling Partners LLC"
+      ],
+      "confidence": 0.85,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "vireobiotech.com",
+      "parent_company": "Vireo Biotech",
+      "aliases": [
+        "Vireo Biotech Co"
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "palmettoinsurance.com",
+      "parent_company": "Palmetto Insurance Group",
+      "aliases": [
+        "Palmetto Insurance Group Inc."
+      ],
+      "confidence": 0.97,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "aureliatextiles.com",
+      "parent_company": "Aurelia Textiles Group",
+      "aliases": [
+        "Aurelia Textile Works"
+      ],
+      "confidence": 0.85,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    },
+    {
+      "domain": "quillandanchormedia.com",
+      "parent_company": null,
+      "aliases": [
+        "Quill & Anchor Media"
+      ],
+      "confidence": 0.8,
+      "verified_epoch": 2,
+      "verified_by": "human_review"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[ok] pass_catalog_easy: expected PASS, got PASS
+[ok] pass_tie_break_used_correctly: expected PASS, got PASS
+[ok] fail_process_skipped_tie_break: expected FAIL-PROCESS, got FAIL-PROCESS
+[ok] fail_process_wrong_order: expected FAIL-PROCESS, got FAIL-PROCESS
+[ok] fail_grounding_contradiction: expected FAIL-GROUNDING, got FAIL-GROUNDING
+[ok] fail_grounding_missing_source: expected FAIL-GROUNDING, got FAIL-GROUNDING
+[ok] needs_review_insufficient_info: expected NEEDS-REVIEW, got NEEDS-REVIEW
+
+7/7 passed

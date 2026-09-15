@@ -1,0 +1,3 @@
+Resolved 15 vendors -> results/example_run/results.csv
+Judge verdicts: {'PASS': 13, 'NEEDS-REVIEW': 2}
+Verified Resolution Cache written -> results/example_run/verified_cache_after_run.json

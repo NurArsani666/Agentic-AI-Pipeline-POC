@@ -1,0 +1,14 @@
+{
+  "_comment": "Seed state of the Verified Resolution Cache, as if a prior evaluation epoch had already run and a human reviewer had confirmed a few resolutions. Keyed by normalized alias name (fuzzy-matched on lookup); grouped by domain to show how multiple name variants collapse onto one verified parent. New Pass-graded resolutions get appended here at runtime (written to a separate output file, this seed file is left untouched).",
+
+  "entries": [
+    {
+      "domain": "meridianhealthpartners.com",
+      "parent_company": "Meridian Health Partners",
+      "aliases": ["Meridian Health Partners Group"],
+      "confidence": 0.93,
+      "verified_epoch": 1,
+      "verified_by": "human_review"
+    }
+  ]
+}
