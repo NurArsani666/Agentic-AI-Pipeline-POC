@@ -1,11 +1,32 @@
-# Agentic Vendor Entity Resolution — Sanitized POC
+# Agentic AI Vendor Entity Resolution Pipeline — Sanitized POC
 
-> This repository is a sanitized proof-of-concept inspired by an agentic
-> entity-resolution workflow I built during my internship at Warburg Pincus,
-> where it resolved 5,000 real vendor records at 95% accuracy, 115x faster
-> than the manual process it replaced, and was approved for firm-wide
-> deployment. The original data, prompts, and internal infrastructure are
-> proprietary and are **not** included here.
+> This repository is a sanitized proof-of-concept inspired by an agentic AI
+> entity-resolution pipeline, workflow, and LLM evaluation framework I built
+> during my internship at Warburg Pincus.
+> 
+> The original data, prompts, and internal infrastructure are proprietary
+> and are **not** included here.
+>
+> The purpose of the project was to give the firm's analytics team real
+> visibility into vendor spend, which fragmented, inconsistent vendor
+> records had made impossible.
+>
+> The pipeline was designed to scale to the firm's full ERP vendor dataset —
+> 50,000+ vendor records. During my internship, I tested it on 5,000 of
+> those records: **95% match agreement** against human researchers, and
+> **115x faster** than the manual process it replaced, where researchers
+> resolved vendors one by one by hand. I effectively reverse-engineered that
+> manual research process and rebuilt it as an agentic AI workflow —
+> scalable and auditable in a way the manual process never could be. This system was deployed and signed off by
+> the SVP.
+>
+> The two hardest parts of the problem:
+> - **Bad input data** — inconsistent, incomplete vendor records
+> - **No ground-truth label set** — building my own LLM evaluation
+>   framework alongside the resolution pipeline was as much the project as
+>   the pipeline itself
+>
+>
 >
 > This POC recreates the real decision logic — the deterministic-first
 > resolution funnel, the domain-keyed verified cache, and the LLM-as-judge
@@ -18,8 +39,7 @@
 > logic and evaluation approach below are faithful to the real design, just
 > smaller in scope.
 >
-> Full case study (business problem, role, results, lessons learned): *link
-> to portfolio coming soon*
+> Full case study (business problem, role, results, lessons learned): https://tinyurl.com/3b44297j
 
 ## What this demonstrates
 
