@@ -113,7 +113,7 @@ Search** (targeted research + evidence capture), **Tie-Break Lookup**
 ### 2. Evaluation: LLM-as-judge + human-in-the-loop
 
 There's no ground-truth label set, so the judge grades *process*, not
-"was the name right."
+"was the parent company matched right."
 
 ```
  Agent resolves vendor
