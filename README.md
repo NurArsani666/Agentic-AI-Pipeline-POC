@@ -7,7 +7,7 @@
 > The original data, prompts, and internal infrastructure are proprietary
 > and are **not** included here.
 >
-> The purpose of the project was to give the firm's analytics team real
+> The purpose of the project was to give the firm's finance team real
 > visibility into vendor spend, which fragmented, inconsistent vendor
 > records had made impossible.
 >
