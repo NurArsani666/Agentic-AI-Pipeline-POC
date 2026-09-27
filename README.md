@@ -2,7 +2,7 @@
 
 > This repository is a sanitized proof-of-concept inspired by an agentic AI
 > entity-resolution pipeline, workflow, and LLM evaluation framework I built
-> during my internship at Warburg Pincus.
+> during my **internship at Warburg Pincus LLC**.
 > 
 > The original data, prompts, and internal infrastructure are proprietary
 > and are **not** included here.
