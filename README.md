@@ -13,7 +13,7 @@
 >
 > The pipeline was designed to scale to the firm's full ERP vendor dataset —
 > 50,000+ vendor records. During my internship, I tested it on 5,000 of
-> those records: **95% match agreement** against human researchers, and
+> those records: **95% match agreement** against human resolved records, and
 > **115x faster** than the manual process it replaced, where researchers
 > resolved vendors one by one by hand. I effectively reverse-engineered that
 > manual research process and rebuilt it as an agentic AI workflow —
